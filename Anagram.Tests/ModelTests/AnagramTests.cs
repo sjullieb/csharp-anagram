@@ -23,23 +23,49 @@ namespace Anagram.Tests
       string result = newWord.GetWord();
       Assert.AreEqual(strWord, result);
     }
-    //
-    // [TestMethod]
-    // public void SetDescription_SetDescription_String()
-    // {
-    //   //Arrange
-    //   string description = "Walk the dog.";
-    //   Item newItem = new Item(description);
-    //
-    //   //Act
-    //   string updatedDescription = "Do the dishes";
-    //   newItem.SetDescription(updatedDescription);
-    //   string result = newItem.GetDescription();
-    //
-    //   //Assert
-    //   Assert.AreEqual(updatedDescription, result);
-    // }
-    //
+
+    [TestMethod]
+    public void IsAnagram_EmptyWordEmptyKeyWord_True()
+    {
+      //Arrange
+      Word keyWord = new Word("");
+      Word newWord = new Word("");
+
+      //Act
+      bool result = newWord.IsAnagram(keyWord);
+
+      //Assert
+      Assert.AreEqual(true, result);
+    }
+
+    [TestMethod]
+    public void IsAnagram_NotEmptyWordEmptyKeyWord_False()
+    {
+      //Arrange
+      Word keyWord = new Word("");
+      Word newWord = new Word("a");
+
+      //Act
+      bool result = newWord.IsAnagram(keyWord);
+
+      //Assert
+      Assert.AreEqual(false, result);
+    }
+
+    [TestMethod]
+    public void IsAnagram_EmptyWordNotEmptyKeyWord_False()
+    {
+      //Arrange
+      Word keyWord = new Word("a");
+      Word newWord = new Word("");
+
+      //Act
+      bool result = newWord.IsAnagram(keyWord);
+
+      //Assert
+      Assert.AreEqual(false, result);
+    }
+
     // [TestMethod]
     // public void GetAll_ReturnsEmptyList_ItemList()
     // {
