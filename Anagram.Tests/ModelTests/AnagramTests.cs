@@ -11,18 +11,18 @@ namespace Anagram.Tests
     [TestMethod]
     public void WordConstructor_CreatesInstanceOfWord_Word()
     {
-      Word newWord = new Word("test");
+      Word newWord = new Word("new");
       Assert.AreEqual(typeof(Word), newWord.GetType());
     }
 
-    // [TestMethod]
-    // public void GetDescription_ReturnsDescription_String()
-    // {
-    //   string description = "Walk the dog.";
-    //   Item newItem = new Item(description);
-    //   string result = newItem.GetDescription();
-    //   Assert.AreEqual(description, result);
-    // }
+    [TestMethod]
+    public void GetWord_ReturnsWord_String()
+    {
+      string strWord = "test";
+      Word newWord = new Word(strWord);
+      string result = newWord.GetWord();
+      Assert.AreEqual(strWord, result);
+    }
     //
     // [TestMethod]
     // public void SetDescription_SetDescription_String()

@@ -1,0 +1,14 @@
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Anagram.Tests.deps.json
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Anagram.Tests.runtimeconfig.json
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Anagram.Tests.runtimeconfig.dev.json
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\obj\Debug\netcoreapp1.1\Anagram.Tests.csproj.CoreCompileInputs.cache
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\obj\Debug\netcoreapp1.1\Anagram.Tests.AssemblyInfo.cs
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Anagram.Tests.dll
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Anagram.Tests.pdb
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Anagram.dll
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\bin\Debug\netcoreapp1.1\Anagram.pdb
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\obj\Debug\netcoreapp1.1\Anagram.Tests.dll
+C:\Projects\Epicodus\C#\Anagram.Solution\Anagram.Tests\obj\Debug\netcoreapp1.1\Anagram.Tests.pdb
