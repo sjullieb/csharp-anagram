@@ -66,6 +66,33 @@ namespace Anagram.Tests
       Assert.AreEqual(false, result);
     }
 
+    [TestMethod]
+    public void IsAnagram_NotAnagram_False()
+    {
+      //Arrange
+      Word keyWord = new Word("bread");
+      Word newWord = new Word("bear");
+
+      //Act
+      bool result = newWord.IsAnagram(keyWord);
+
+      //Assert
+      Assert.AreEqual(false, result);
+    }
+
+    [TestMethod]
+    public void IsAnagram_Anagram_True()
+    {
+      //Arrange
+      Word keyWord = new Word("bread");
+      Word newWord = new Word("beard");
+
+      //Act
+      bool result = newWord.IsAnagram(keyWord);
+
+      //Assert
+      Assert.AreEqual(true, result);
+    }
     // [TestMethod]
     // public void GetAll_ReturnsEmptyList_ItemList()
     // {
